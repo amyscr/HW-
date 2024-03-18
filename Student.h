@@ -8,7 +8,7 @@ class Student : public Person
 {
     public:
         Student();
-        Student(string first, string last, int day, int month, int year);
+        Student(string first, string last, int day, int month, int year, string major, double GPA);
 
         string getMajor()const;
         double getGPA()const;
